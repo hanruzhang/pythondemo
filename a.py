@@ -47,10 +47,10 @@ def decorator(func):
         func()
     return wrapper
 
+@decorator
 def f1():
     print("this is a function")
 
 
 
-f = decorator(f1)
-f()
+f1()
